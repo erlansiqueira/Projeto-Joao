@@ -70,19 +70,42 @@ nav.navbar-transparente {
 }
 
 
+
+.face{
+	
+	padding: 100px 0px 0px 0px;
+	width: 400; ;
+	height: 420; 
+	border: none;
+	overflow: hidden;
+}
+
+
+
 /* -- rodape -- */
 footer {
 	background: #000;
-	padding: 10px 0px 20px 0px;
+	padding: 0px 0px 0px 0px;
 	position: relative;
-}
-
-.redesocial {
-	position: center;
+     
 }
 
 .item-rede-social{
-	float: right;
+	float: right;	
+}
+
+.sign {
+
+	padding: 20px 0px 10px 0px;
+}
+
+.locimg {
+
+	padding: 0px 50px 10px 0px;
+}
+
+.imgrodape {	
+	height: 30px;	
 }
 
 /* ========================= Tipografia ======================== */
@@ -93,15 +116,6 @@ h1 {
 }
 
 /* Media queries */
-/* xs < 768 */
-@media screen and (max-width: 767px) {
-	h1 {
-	    font-size: 50px; 
-  	}
-  	.btn-custom {
-    	margin: 10px 15px;
-	}
-}
 
 /* sm */
 @media screen and (min-width: 768px) {
@@ -125,10 +139,3 @@ h1 {
   	}
 }
 /* Fim Media queries */
-
-
-#rodape h4 {
-	color: #919496;
-	font-size: 12px;
-	text-transform: uppercase;
-}
